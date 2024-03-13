@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\KALYPATN\Documents\JAVA\JavaSts\.metadata\.plugins\org.eclipse.jdt.core
+1476557917.index
+2440097375.index
+3100257999.index
+1865797976.index
