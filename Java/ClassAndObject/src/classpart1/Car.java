@@ -1,9 +1,31 @@
 package classpart1;
 
 public class Car {
+	
+	private String make;
+	private String model;
+	private String color;
+	private int doors;
+	private boolean convertible;
+	
+	public void describeCar() {
+		System.out.println(doors + " Door " + 
+				color + " " +
+				make + " " + 
+				model + " " +
+				(convertible ? "Convertible " : " "));
+	}
+	
+	
+	
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		Car car = new Car();
+		
+		car.describeCar();
+		
+		
 
 	}
 
