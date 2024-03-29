@@ -6,7 +6,7 @@ public class Main {
 
 		for (int i = 1; i <= 5; i++) {
 
-			Student s = new Student("345365" + i, switch (i) {
+			LPAStudent s = new LPAStudent("345365" + i, switch (i) {
 			case 1 -> "Mary";
 			case 2 -> "Thomas";
 			case 3 -> "Harry";
@@ -16,7 +16,24 @@ public class Main {
 			}, "05/11/2143", "Java MasterClass");
 			System.out.println(s);
 		}
-
+		
+		
+		
+		Student pojoStudent = new Student("S934983497", "siav",
+				"05/11/1343","JavaMasterClass");
+		
+		
+		LPAStudent  recordStudent = new LPAStudent("s8u987", "Bill",
+				"04/34/3453", "JavaMasterClass");
+		
+		
+		System.out.println(pojoStudent);
+		
+		System.out.println(recordStudent);
+		
+		
+//		System.out.println(pojoStudent.getName() + " is taking" + pojoStudent.getClassList());
+		System.out.println(recordStudent.name() + " is taking " + recordStudent.classList());
 	}
 
 }
