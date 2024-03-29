@@ -12,6 +12,10 @@ public class Dog extends Animal{
 		this.earShape = earShape;
 		this.tailShape = tailShape;
 	}
+
+		
+	
+	
 	
 	
 
