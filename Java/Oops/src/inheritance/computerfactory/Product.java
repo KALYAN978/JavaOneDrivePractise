@@ -44,7 +44,7 @@ class Monitor extends Product {
 	
 	
 	public void drawPixelAt(int x, int y, String color) {
-		System.out.println(String.format());
+		System.out.println(String.format("Drawing pixel at %d, %d in color %s, x", x, y, color));
 	}
 	
 	
