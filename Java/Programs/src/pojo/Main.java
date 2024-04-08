@@ -32,7 +32,7 @@ public class Main {
 		System.out.println(recordStudent);
 		
 		
-		System.out.println(recordStudent.name() + " is taking " + recordStudent.classList());
+//		System.out.println(recordStudent.name() + " is taking " + recordStudent.classList());
 	}
 
 }
