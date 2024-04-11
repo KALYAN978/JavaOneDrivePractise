@@ -13,7 +13,7 @@ public class Main {
 //		int damage = 10;
 //		player.loseHealth(damage);
 //		System.out.println("Remaining health = " + player.healthRemaining());
-//		player.health = 200;
+//		player.health = 200; 
 //		player.loseHealth(11);
 //		System.out.println("Remaining health = " + player.healthRemaining());
 //		
