@@ -20,6 +20,11 @@ public class PolyMain {
 			if("Qq".contains(type)) {
 				break;
 			}
+			
+			System.out.println("Enter Movie Title");
+			String title = sc.nextLine();
+			Movie movie = Movie.getMovie(type,title);
+			movie.watchMovie();
 		}
 		
 		
