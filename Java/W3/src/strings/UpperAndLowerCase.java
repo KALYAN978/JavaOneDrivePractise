@@ -21,7 +21,18 @@ public class UpperAndLowerCase {
 		
 		System.out.println(txt +" "+ s);
 		System.out.println(txt.concat(s));
+
 		
+		System.out.println(Math.max(12, 23));
+		
+		System.out.println(Math.min(232, 43));
+		
+		
+		System.out.println(Math.sqrt(45));
+		
+		System.out.println(Math.abs(-4.5));
+		
+		System.out.println(Math.round(-45.6));
 		
 
 	}
