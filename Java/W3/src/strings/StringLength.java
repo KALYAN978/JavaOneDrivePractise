@@ -6,6 +6,8 @@ public class StringLength {
 		
 		String txt = "ASJFNKJN";
 		System.out.println(txt.length());
+		System.out.println();
+		System.out.println();
 
 	}
 
