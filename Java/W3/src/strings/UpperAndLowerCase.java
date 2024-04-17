@@ -34,6 +34,24 @@ public class UpperAndLowerCase {
 		
 		System.out.println(Math.round(-45.6));
 		
+		System.out.println(Math.random());
+		
+		
+		double randomNum = (Math.random() * 1001);
+		System.out.println(randomNum);
+		
+		
+		
+		boolean isJavaFun = true;
+		boolean real = false;
+		
+		System.out.println(isJavaFun);
+		System.out.println(real);
+		
+		
+		int age = 25;
+		int votingAge = 18;
+		System.out.println(age > votingAge);
 
 	}
 
