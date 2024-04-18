@@ -2,14 +2,23 @@ package oops;
 
 public class Main {
 	
-	int x;
+	static void staticMethod() {
+		System.out.println("this i static method");
+	}
+	
+	
+	public void myPublicMethod(int speed) {
+		System.out.println("public methods must be called by creating objects" + speed);
+	}
+	
 
 	public static void main(String[] args) {
 		
-		Main m = new Main();
+		staticMethod();
 		
-		m.x = 434;
-		System.out.println(m.x);
+		Main m = new Main();
+		m.myPublicMethod(34);
+		
 
 	}
 
