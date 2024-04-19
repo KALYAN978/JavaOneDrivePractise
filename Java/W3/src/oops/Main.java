@@ -8,7 +8,7 @@ public class Main {
 	
 	
 	public void myPublicMethod(int speed) {
-		System.out.println("public methods must be called by creating objects" + speed);
+		System.out.println("public methods must be called by creating objects " + speed);
 	}
 	
 
