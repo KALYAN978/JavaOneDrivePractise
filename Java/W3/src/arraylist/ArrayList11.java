@@ -2,9 +2,10 @@ package arraylist;
 
 import java.util.ArrayList;
 
-public class ArrayList1 {
+public class ArrayList11 {
 
 	public static void main(String[] args) {
+		
 		
 		ArrayList<Integer> num = new ArrayList<Integer>();
 		
@@ -16,18 +17,17 @@ public class ArrayList1 {
 		num.add(6);
 		num.add(7);
 		num.add(8);
-		
-		num.set(0, 45);
-		
-//		for(int i = 0; i<num.size(); i++) {
-//			System.out.println(num.get(i));
-//		}
-		
-		for(int i : num) {
-			System.out.println(i);
-		}
+		num.add(9);
 		
 		
+		System.out.println(num);
+		
+		num.set(0,23);
+		num.set(1,24);
+		num.remove(3);
+		num.remove(5);
+		
+		System.out.println(num);
 
 	}
 
