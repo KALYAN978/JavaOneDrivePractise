@@ -23,6 +23,15 @@ public class ArrayList0 {
 		cars.add("bolero");
 		
 		System.out.println(cars);
+		System.out.println(cars.get(0));
+		System.out.println(cars.get(1));
+		System.out.println(cars.get(2));
+		System.out.println(cars.set(0,"cap"));
+		System.out.println(cars.remove(0));
+		System.out.println(cars);
+		cars.clear();
+		System.out.println(cars);
+		System.out.println(cars.size());
 
 	}
 
