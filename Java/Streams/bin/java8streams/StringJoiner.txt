@@ -1,0 +1,8 @@
+StringJoiner:  is a utility for constructing a sequence of characters separated by a delimiter (a specified separator).
+ It allows you to join multiple strings together in a flexible and readable way, optionally with a prefix and suffix
+ StringJoiner Contains:
+1) Delimiter: The separator that will be placed between each element.
+2) Prefix:    An optional string that will be added at the beginning.
+3) Suffix:    An optional string that will be added at the end.
+
+
